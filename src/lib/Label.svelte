@@ -25,7 +25,12 @@
   td {
     padding: 1vw;
     border-color: grey;
-    border-style: solid;
+    border-style: dashed;
     text-align: center;
+    size: 0.5 in, 1.75 in;
+    height: 100%;
+    width: 100%;
+    max-width: 1.75 in;
+    max-height: 0.5 in;
   }
 </style>

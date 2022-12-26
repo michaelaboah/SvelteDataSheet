@@ -14,4 +14,22 @@
   let thing = { component: Test } as Row;
 </script>
 
-<Sheet {columns} {source} />
+<div>
+  <Sheet {columns} {source} />
+  <!-- Hello -->
+</div>
+
+<style>
+  div {
+    /* size: A4 portrait; */
+    /* position: absolute; */
+    /* left: 0;
+    top: 0%;
+    max-width: 8.5 in;
+    max-height: 11 in;
+    background-color: white;
+    width: 100%;
+    height: 100%; */
+    /* margin: auto; */
+  }
+</style>
