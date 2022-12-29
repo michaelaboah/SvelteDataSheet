@@ -14,11 +14,9 @@
   let thing = { component: Test } as Row;
 </script>
 
-<div>
-  <Sheet {columns} {source} />
-  <!-- Hello -->
-</div>
+<Sheet {columns} {source} />
 
+<!-- Hello -->
 <style>
   div {
     /* size: A4 portrait; */
