@@ -1,6 +1,7 @@
 /// <reference types="svelte" />
 import type { ComponentType } from "svelte";
 
-export interface Row {
-  component: ComponentType;
-}
+export type Row<T> = T & {
+  componentData?: unknown;
+  component?: ComponentType;
+};
